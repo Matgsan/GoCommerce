@@ -12,3 +12,5 @@ Simple React Native eCommerce mobile application.
 
 Any doubts you can contact me at code@matgsan.me
 
+# Images
+http://imgur.com/h2wZNtH
