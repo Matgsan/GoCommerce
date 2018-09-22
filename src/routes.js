@@ -27,6 +27,7 @@ const TabConfig = {
     activeTintColor: colors.primary,
     inactiveTintColor: colors.gray,
     showLabel: false,
+    showIcon: true,
     style: {
       backgroundColor: colors.white
     }

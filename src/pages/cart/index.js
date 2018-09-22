@@ -22,10 +22,10 @@ const Cart = ({ cart, subTotal }) => (
         }
       />
     </View>
-    {cart.length && (
+    {!!cart.length && (
       <View style={styles.subTotalContainer}>
         <Text style={styles.subTotalTitle}>Subtotal</Text>
-        <Text style={styles.subTotal}>{subTotal()}</Text>
+        {subTotal()}
       </View>
     )}
   </View>
@@ -56,7 +56,7 @@ const mapStateToProps = state => ({
       0
     );
     return (
-      <Text>
+      <Text style={styles.subTotal}>
         R$
         {subTotal}
       </Text>
